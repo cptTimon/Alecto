@@ -1,0 +1,43 @@
+/* VARIABLES */
+$font-text: 'Open Sans', sans-serif;
+$font-head: 'Maven Pro', sans-serif;
+
+/* GLOBAL */
+
+*, *::before, *::after {
+    box-sizing: border-box;   
+}
+
+body {
+    margin: 0;
+    font-family: $font-text;
+}
+
+
+/* MEDIA */
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 576px) {
+  
+}
+
+/* Small devices (phone horizontally) */
+@media only screen and (min-width: 576px) {
+
+}
+
+/* Medium devices (Tablets) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (Deskopt) */
+@media only screen and (min-width: 1200px) {
+
+}
+

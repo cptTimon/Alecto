@@ -7,6 +7,43 @@
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1350px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* NAVIGATION */
+header {
+  height: 100vh;
+  background: url(../images/header.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+.logo {
+  -ms-flex: 1;
+      flex: 1;
+}
+
+.menu {
+  -ms-flex: 5;
+      flex: 5;
 }
 
 /* MEDIA */

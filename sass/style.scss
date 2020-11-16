@@ -5,15 +5,48 @@ $font-head: 'Maven Pro', sans-serif;
 /* GLOBAL */
 
 *, *::before, *::after {
-    box-sizing: border-box;   
+  box-sizing: border-box;   
 }
 
 body {
-    margin: 0;
-    font-family: $font-text;
+  margin: 0;
+  font-family: $font-text;
+  color: #fff;
 }
 
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1350px;
+}
 
+.row {
+  display: flex;
+}
+/* NAVIGATION */
+header{
+  height: 100vh;
+  background: url(../images/header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ul {
+  list-style-type: none;
+
+  li {
+    display: inline-block;
+  }
+}
+
+.logo {
+  flex: 1;
+}
+
+.menu {
+  flex: 5;
+}
 /* MEDIA */
 
 /* Extra small devices (phones) */
